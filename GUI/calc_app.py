@@ -22,7 +22,9 @@ def calculate(event):
     if value == '=':
         expression = text_Box.get()
         result = eval(expression)
-        print(result)
+        text_Box.delete(0, END)
+        text_Box.insert(0, result)
+        # print(result)
     else:
         length = len(text_Box.get())
         text_Box.insert(length,value)
