@@ -1,0 +1,28 @@
+File Handling
+
+text
+binary - images, audio, video....
+
+modes for text
+- r    - read text
+- w    - write text
+- a    - append text
+- x    - write text (it will always create a new file, it will raise error if file already exist)
+
+modes for binary
+- rb
+- wb
+- ab
+- xb
+
+Steps to perform file handling:
+1. Open file in a particular mode
+2. Read/Write
+3. Close file
+
+buffering - flow of data in chunks
+- 4096 bytes
+
+streaming - continuous flow of data
+
+
